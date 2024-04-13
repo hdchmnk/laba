@@ -1,0 +1,58 @@
+.header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.line {
+    height: 3px;
+    background-color: black;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.italicText {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.boldText {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.boldChapter {
+    font-size: 20px;
+}
+
+.defaultText {
+    font-size: 18px;
+}
+
+.romanList {
+    list-style-type: upper-roman;
+    margin-right: 40px;
+}
+
+.computerChapter {
+    display: flex;
+}
+
+.computerNumber {
+    margin-right: 50px;
+    font-weight: 600;
+}
+
+.chapterComputer {
+    display: flex;
+    margin-left: -85px;
+}
+
+.chapterComputerList {
+    list-style-type: decimal;
+    margin-right: 30px;
+}
+
+.pc {
+    margin-left: 10px;
+}
