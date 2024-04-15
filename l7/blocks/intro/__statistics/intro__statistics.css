@@ -1,0 +1,11 @@
+.intro__statistics {
+    list-style-type: none;
+    padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .intro__statistic {
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

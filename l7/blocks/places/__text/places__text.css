@@ -1,0 +1,28 @@
+.places__text {
+    font-size: 18px;
+    line-height: 30px;
+    color: white;
+    margin: 0 0 28px;
+    padding: 0;
+    max-width: 484px;
+}
+
+.places__text:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 1023px) {
+    .places__text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .places__text {
+        font-size: 16px;
+        line-height: 27px;
+        margin: 0 0 24px;
+        padding: 0 16px 0;
+    }
+}

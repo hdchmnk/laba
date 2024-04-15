@@ -1,0 +1,41 @@
+.container {
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    height: 50px;
+    width: 600px;
+    margin: 0 35%;
+}
+
+.nav_list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.active_block {
+    display: none;
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 130px;
+    height: 110px;
+    width: 150px;
+    background-color: cadetblue;
+    z-index: 100;
+
+}
+
+.active:hover .active_block {
+        display: block;
+}
+
+.nav_list-li {
+    margin-right: 30px;
+    margin-top: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.nav_list-li:hover {
+    color: #2A2C2F;
+}
+

@@ -1,0 +1,15 @@
+@import url(../website/__url-heading/website__url-heading.css);
+@import url(../website/__url/website__url.css);
+@import url(../website/_position_end/website_position_end.css);
+.website {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: start;
+}
+
+@media screen and (max-width: 568px) {
+    .website {
+        display: none;
+    }
+}

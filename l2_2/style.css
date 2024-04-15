@@ -1,0 +1,32 @@
+h1 {
+    font-size: 45px;
+    color: darkgoldenrod;
+    width: 100px;
+}
+
+h1:hover {
+    border: solid  2px darkgoldenrod;
+}
+
+
+.text_container {
+    width: 300px;
+    display: flex;
+    background: url("utils/img.jpg") repeat-y;
+    background-size: 64px auto;
+    background-position-x: 260px;
+}
+
+
+.text_img {
+    display: flex;
+    background-repeat: repeat-y;
+}
+
+.center-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid orange 50px;
+    height: 150px;
+}
